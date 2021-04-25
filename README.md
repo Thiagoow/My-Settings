@@ -1,8 +1,6 @@
-# 🔥 Minhas Configurações
-Estas são as configurações que estou usando atualmente no meu editor de código.
+# ⚙ Minhas Configurações VS Code
 
-Veja qual faz sentido para sua situação e divirta-se!
+Estas são as configurações que estou usando atualmente no meu VS Code! 😉
 
-01. [My Settings.json](https://gist.github.com/GoharaJunior/711f686783032948b95a5f9018e870db)
-02. [Extensões do meu VSCode](vscode-extensions/vscode-extensions.md)
-03. [Configurações do meu Terminal](terminal-config/terminal-config.md)
+1.  [My Settings.json](https://github.com/Thiagoow/My-VS-Code-Settings/blob/main/settings.json)
+2.  [Extensões que eu utilizo :D](https://github.com/Thiagoow/My-VS-Code-Settings/blob/main/vscode-extensions/vscode-extensions.md)
