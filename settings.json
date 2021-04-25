@@ -1,0 +1,79 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderIndentGuides": false,
+  "team.showFarewellMessage": false,
+  "team.showWelcomeMessage": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // Set the font
+  "editor.fontFamily": "'JetBrains Mono'",
+  // Set the font size
+  "editor.fontSize": 13,
+  // Turn on font ligatures
+  "editor.fontLigatures": true,
+  // Set letter spacing
+  "editor.letterSpacing": 0.4,
+  // Enable smooth scrolling in the editor
+  "editor.smoothScrolling": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Omni",
+  "cSpell.userWords": [
+    "CEPs",
+    "Cataline",
+    "Hoppsctoch",
+    "Knex",
+    "Rocketseat",
+    "Thiago",
+    "aparecer",
+    "apartirdovalor",
+    "desfreezar",
+    "ecmascript",
+    "freezando",
+    "isabelli",
+    "js",
+    "jsxdev",
+    "lopes",
+    "lulee",
+    "mensagem",
+    "millena",
+    "mostra",
+    "nlw",
+    "node",
+    "paraaaaa",
+    "rocketseat",
+    "typeorm",
+    "varchar",
+    "viacep"
+  ],
+  "editor.codeActionsOnSave": true,
+  "editor.fontWeight": "normal",
+  "workbench.startupEditor": "newUntitledFile",
+  "cSpell.language": "en,pt-BR",
+  "explorer.confirmDelete": false,
+
+  //Configs da Rocketseat:
+  "explorer.compactFolders": true,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "default",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync"
+}
