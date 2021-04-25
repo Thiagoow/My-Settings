@@ -1,4 +1,4 @@
-Essas são as extensões que estou usando atualmente no meu VSCode 😁:
+Essas são as extensões que estou  atualmente no meu VSCode 😁:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
