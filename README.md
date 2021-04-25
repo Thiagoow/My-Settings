@@ -1,4 +1,4 @@
-# ⚙ Minhas Configurações VS Code
+⚙️ Minhas Configurações VS Code:
 
 Estas são as configurações que estou usando atualmente no meu VS Code! 😉
 
