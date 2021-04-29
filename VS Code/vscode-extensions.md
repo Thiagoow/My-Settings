@@ -31,4 +31,3 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Code Spell Checker - EUA](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [Code Spell Checker - Brazilian](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian)
-- [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
