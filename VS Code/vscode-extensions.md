@@ -28,7 +28,6 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [AutoComplete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
-- [Tabnine Autocomplete](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
