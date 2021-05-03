@@ -18,6 +18,7 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 - [npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [Omni Theme](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni)
+- [Visual Studio Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [SQlite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
 - [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
