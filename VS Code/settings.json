@@ -23,9 +23,43 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Omni",
   "cSpell.userWords": [
-
+    "Axios",
+    "CEPs",
+    "Cataline",
+    "Cript",
+    "Descript",
+    "Hoppsctoch",
+    "KABUM",
+    "Knex",
+    "Omni",
+    "Rocketseat",
+    "Thiago",
+    "aparecer",
+    "apartirdovalor",
+    "checkmark",
+    "desfreezar",
+    "ecmascript",
+    "freezando",
+    "isabelli",
+    "js",
+    "jsxdev",
+    "lopes",
+    "lulee",
+    "mensagem",
+    "millena",
+    "minmax",
+    "mnsg",
+    "mnsgs",
+    "mostra",
+    "nlw",
+    "node",
+    "paraaaaa",
+    "rocketseat",
+    "typeorm",
+    "varchar",
+    "viacep",
+    "webservice"
   ],
-  "editor.codeActionsOnSave": true,
   "editor.fontWeight": "normal",
   "workbench.startupEditor": "newUntitledFile",
   "cSpell.language": "en,pt-BR",
@@ -50,5 +84,42 @@
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync"
+  "git.postCommitCommand": "sync",
+  "kite.showWelcomeNotificationOnStartup": false,
+  //Configs do Yung Silva (Cataline Bootcamp):
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "support.class.component.html",
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      }
+    ]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "expand"
 }
