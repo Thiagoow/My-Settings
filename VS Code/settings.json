@@ -61,7 +61,6 @@
     "webservice"
   ],
   "editor.fontWeight": "normal",
-  "workbench.startupEditor": "newUntitledFile",
   "cSpell.language": "en,pt-BR",
   "explorer.confirmDelete": false,
 
@@ -86,6 +85,7 @@
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "kite.showWelcomeNotificationOnStartup": false,
+
   //Configs do Yung Silva (Cataline Bootcamp):
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -121,5 +121,6 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.cursorBlinking": "expand"
+  "editor.cursorBlinking": "expand",
+  "workbench.startupEditor": "none"
 }
