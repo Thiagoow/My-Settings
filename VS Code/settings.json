@@ -126,5 +126,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.cursorBlinking": "expand",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.editor.untitled.hint": "hidden"
 }
