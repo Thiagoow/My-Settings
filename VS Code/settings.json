@@ -68,7 +68,7 @@
   "cSpell.language": "en,pt-BR",
   "explorer.confirmDelete": false,
 
-  //Configs da Rocketseat:
+  //Configs Rocketseat:
   "explorer.compactFolders": true,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "default",
@@ -90,7 +90,7 @@
   "git.postCommitCommand": "sync",
   "kite.showWelcomeNotificationOnStartup": false,
 
-  //Configs do Yung Silva (Cataline Bootcamp):
+  //Configs Cataline Bootcamp:
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
