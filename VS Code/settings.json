@@ -5,15 +5,10 @@
   "team.showWelcomeMessage": false,
   "git.autofetch": true,
   "git.confirmSync": false,
-  // Set the font
   "editor.fontFamily": "'JetBrains Mono'",
-  // Set the font size
   "editor.fontSize": 13,
-  // Turn on font ligatures
   "editor.fontLigatures": true,
-  // Set letter spacing
   "editor.letterSpacing": 0.4,
-  // Enable smooth scrolling in the editor
   "editor.smoothScrolling": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
