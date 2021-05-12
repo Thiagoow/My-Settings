@@ -30,7 +30,7 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [AutoComplete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Code Spell Checker - EUA](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [Code Spell Checker - Brazilian](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian)
