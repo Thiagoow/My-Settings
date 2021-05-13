@@ -33,6 +33,7 @@
     "apartirdovalor",
     "checkmark",
     "debugado",
+    "debugar",
     "descomentado",
     "descomentamos",
     "descomentar",
@@ -47,6 +48,7 @@
     "lopes",
     "lulee",
     "mensagem",
+    "microframework",
     "millena",
     "minmax",
     "mnsg",
@@ -58,6 +60,7 @@
     "paraaaaa",
     "respawn",
     "rocketseat",
+    "scripthost",
     "tipar",
     "typeorm",
     "varchar",
@@ -91,6 +94,10 @@
   "kite.showWelcomeNotificationOnStartup": false,
 
   //Configs Cataline Bootcamp:
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.experimental.templateInterpolationService": true,
+
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
