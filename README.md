@@ -9,4 +9,4 @@ Estas são as configs que estou usando atualmente no meu VS Code! 😉
 
 Estas são configs e preferências que eu uso atualmente no meu terminal "Windows Terminal":
 
-1. [My settings.json]()
+1. [My settings.json](https://github.com/Thiagoow/My-Settings/blob/main/Windows%20Terminal/settings.json)
