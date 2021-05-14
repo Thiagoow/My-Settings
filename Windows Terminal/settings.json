@@ -45,7 +45,9 @@
     "defaults": {
       "colorScheme": "Bubbles",
       "fontFace": "Fira Code",
-      "fontSize": 13
+      "fontSize": 13,
+      "startingDirectory": "C:\\Users\\Thiago Silva Lopes\\Desktop"
+      //O "startingDirectory" default é: "%USERPROFILE%"
     },
     "list": [
       {
