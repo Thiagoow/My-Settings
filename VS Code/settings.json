@@ -134,5 +134,18 @@
   },
   "editor.cursorBlinking": "expand",
   "workbench.startupEditor": "none",
-  "workbench.editor.untitled.hint": "hidden"
+  "workbench.editor.untitled.hint": "hidden",
+
+  //Configs terminal Windows Terminal + PowerShell:
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "path": [
+        "${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+      ],
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoLogo"]
+    }
+  }
 }
