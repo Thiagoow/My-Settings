@@ -70,9 +70,9 @@
   "editor.fontWeight": "normal",
   "cSpell.language": "en,pt-BR",
   "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
 
   //Configs Rocketseat:
-  "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "default",
   "extensions.ignoreRecommendations": true,
