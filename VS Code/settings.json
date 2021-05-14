@@ -72,7 +72,7 @@
   "explorer.confirmDelete": false,
 
   //Configs Rocketseat:
-  "explorer.compactFolders": true,
+  "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "default",
   "extensions.ignoreRecommendations": true,
