@@ -18,6 +18,7 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Omni",
   "cSpell.userWords": [
+    "API's",
     "Axios",
     "CEPs",
     "Cataline",
@@ -147,5 +148,6 @@
       "icon": "terminal-powershell",
       "args": ["-NoLogo"]
     }
-  }
+  },
+  "files.eol": "\n"
 }
