@@ -1,4 +1,7 @@
 {
+  //Seta o End of Line Sequence dos arquivos pra LF como padrão para evitar bugs:
+  "files.eol": "\n",
+
   "workbench.iconTheme": "material-icon-theme",
   "editor.renderIndentGuides": false,
   "team.showFarewellMessage": false,
@@ -148,6 +151,5 @@
       "icon": "terminal-powershell",
       "args": ["-NoLogo"]
     }
-  },
-  "files.eol": "\n"
+  }
 }
