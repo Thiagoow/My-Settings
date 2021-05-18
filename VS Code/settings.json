@@ -7,6 +7,7 @@
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
   "git.autofetch": true,
+  //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
   "git.confirmSync": false,
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontSize": 13,
