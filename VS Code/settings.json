@@ -3,6 +3,16 @@
   "files.eol": "\n",
 
   "workbench.iconTheme": "material-icon-theme",
+  //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
+  "material-icon-theme.folders.associations": {
+    "bosons": "components",
+    "quarks": "components",
+    "atoms": "components",
+    "molecules": "components",
+    "organisms": "components",
+    "templates": "components",
+    "pages": "components"
+  },
   "editor.renderIndentGuides": false,
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
@@ -31,9 +41,11 @@
     "Componentização",
     "Cript",
     "Descript",
+    "Glassmorphic",
     "Hoppsctoch",
     "KABUM",
     "Knex",
+    "Nuxt",
     "Omni",
     "Rocketseat",
     "Thiago",
@@ -78,6 +90,7 @@
     "typeorm",
     "varchar",
     "viacep",
+    "vuex",
     "webservice"
   ],
   "editor.fontWeight": "normal",
