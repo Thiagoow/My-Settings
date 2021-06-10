@@ -3,6 +3,10 @@
   "files.eol": "\n",
 
   "workbench.iconTheme": "material-icon-theme",
+  //Configs do meu Prettier:
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+
   //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
   "material-icon-theme.folders.associations": {
     "bosons": "components",
@@ -17,6 +21,7 @@
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
   "git.autofetch": true,
+
   //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
   "git.confirmSync": false,
   "editor.fontFamily": "'JetBrains Mono'",
@@ -35,6 +40,7 @@
     "API's",
     "Avenir",
     "Axios",
+    "Bootcamp",
     "CEPs",
     "Cataline",
     "Componentiza",
@@ -173,5 +179,6 @@
       "icon": "terminal-powershell",
       "args": ["-NoLogo"]
     }
-  }
+  },
+  "vetur.format.options.tabSize": 4
 }
