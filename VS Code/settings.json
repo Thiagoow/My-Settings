@@ -2,7 +2,10 @@
   //Seta o End of Line Sequence dos arquivos pra LF como padrão para evitar bugs:
   "files.eol": "\n",
 
+  //Minha estilização do Vs Code:
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Omni",
+
   //Configs do meu Prettier:
   "prettier.semi": true,
   "prettier.trailingComma": "none",
@@ -191,6 +194,5 @@
     }
   },
   "vetur.format.options.tabSize": 4,
-  "cSpell.enableFiletypes": ["vue"],
-  "workbench.colorTheme": "Omni"
+  "cSpell.enableFiletypes": ["vue"]
 }
