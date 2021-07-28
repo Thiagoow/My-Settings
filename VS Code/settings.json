@@ -65,6 +65,7 @@
     "aparecer",
     "apartirdovalor",
     "axios",
+    "bedimcode",
     "browserslist",
     "checkmark",
     "debugado",
@@ -83,11 +84,13 @@
     "fortawesome",
     "freezando",
     "greenyellow",
+    "imageurl",
     "isabelli",
     "js",
     "jsxdev",
     "lopes",
     "lulee",
+    "maykbrito",
     "mensagem",
     "microframework",
     "middlewares",
@@ -102,6 +105,7 @@
     "nuxt",
     "nuxtjs",
     "o",
+    "origamid",
     "paraaaaa",
     "repos",
     "respawn",
@@ -118,7 +122,8 @@
     "vue",
     "vuejs",
     "vuex",
-    "webservice"
+    "webservice",
+    "yungsilva"
   ],
   "editor.fontWeight": "normal",
   "cSpell.language": "en,pt-BR",
@@ -207,6 +212,7 @@
   "workbench.colorTheme": "Omni",
 
   /* Configs extensão ToDo Tree: */
+  "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.general.statusBar": "total",
   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
