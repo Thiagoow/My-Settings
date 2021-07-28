@@ -1,5 +1,6 @@
 Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 
+- [Omni Theme](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
@@ -16,7 +17,6 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 - [npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-- [Omni Theme](https://marketplace.visualstudio.com/items?itemName=rocketseat.theme-omni)
 - [Visual Studio Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [SQlite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
@@ -42,3 +42,4 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
 - [Rocketseat ReactJS](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
 - [Rocketseat React Native](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
