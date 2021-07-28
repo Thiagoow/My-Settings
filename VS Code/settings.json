@@ -4,7 +4,6 @@
 
   //Minha estilização do Vs Code:
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
 
   //Configs do meu Prettier:
   "prettier.semi": true,
@@ -49,12 +48,16 @@
     "Componentização",
     "Cript",
     "Descript",
+    "Ecommerce",
     "Glassmorphic",
     "Hoppsctoch",
     "KABUM",
     "Knex",
     "Nuxt",
     "Omni",
+    "Playstation",
+    "Reseta",
+    "Responsivando",
     "Rocketseat",
     "Thiago",
     "Unmount",
@@ -62,6 +65,7 @@
     "aparecer",
     "apartirdovalor",
     "axios",
+    "browserslist",
     "checkmark",
     "debugado",
     "debugar",
@@ -81,34 +85,38 @@
     "greenyellow",
     "isabelli",
     "js",
-    "ts",
     "jsxdev",
     "lopes",
     "lulee",
     "mensagem",
     "microframework",
+    "middlewares",
     "millena",
     "minmax",
     "mnsg",
     "mnsgs",
     "mostra",
     "nlw",
-    "vue",
-    "nuxt",
     "node",
     "nodejs",
-    "vuejs",
+    "nuxt",
     "nuxtjs",
     "o",
     "paraaaaa",
+    "repos",
     "respawn",
     "rgba",
     "rocketseat",
     "scripthost",
+    "swiper",
     "tipar",
+    "transpilar",
+    "ts",
     "typeorm",
     "varchar",
     "viacep",
+    "vue",
+    "vuejs",
     "vuex",
     "webservice"
   ],
@@ -194,5 +202,32 @@
     }
   },
   "vetur.format.options.tabSize": 4,
-  "cSpell.enableFiletypes": ["vue"]
+  "cSpell.enableFiletypes": ["vue"],
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.colorTheme": "Omni",
+
+  /* Configs extensão ToDo Tree: */
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.general.statusBar": "total",
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "foreground": "black",
+    "background": "yellow",
+    "opacity": 50,
+    "iconColour": "blue"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "foreground": "black",
+      "iconColour": "yellow",
+      "gutterIcon": true
+    }
+  }
 }
