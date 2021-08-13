@@ -239,7 +239,7 @@
   "todo-tree.highlights.enabled": true,
   "todo-tree.general.statusBarClickBehaviour": "cycle",
   //Tema que eu uso no meu Vs Code:
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Dark Material Dracula Soft",
   /* Personalizações que eu uso nos meus temas do Vs Code
   para aplicar um fundo preto puro: */
   "workbench.colorCustomizations": {
