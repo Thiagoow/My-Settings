@@ -53,6 +53,7 @@
     "Hoppsctoch",
     "KABUM",
     "Knex",
+    "Nunito",
     "Nuxt",
     "Omni",
     "Playstation",
@@ -209,7 +210,6 @@
   "vetur.format.options.tabSize": 4,
   "cSpell.enableFiletypes": ["vue"],
   "liveServer.settings.donotVerifyTags": true,
-  "workbench.colorTheme": "Omni",
 
   /* Configs extensão ToDo Tree: */
   "todo-tree.tree.hideTreeWhenEmpty": true,
@@ -234,6 +234,52 @@
       "foreground": "black",
       "iconColour": "yellow",
       "gutterIcon": true
+    }
+  },
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.general.statusBarClickBehaviour": "cycle",
+  //Tema que eu uso no meu Vs Code:
+  "workbench.colorTheme": "One Dark Darker",
+  /* Personalizações que eu uso nos meus temas do Vs Code
+  para aplicar um fundo preto puro: */
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000",
+    "badge.background": "#000",
+    "debugToolBar.background": "#000",
+    "dropdown.border": "#000",
+    "editor.background": "#000",
+    "editorGroup.border": "#000",
+    "editorGroup.emptyBackground": "#000",
+    "editorGroupHeader.tabsBackground": "#000",
+    "editorHoverWidget.background": "#000",
+    "editorHoverWidget.border": "#000",
+    "editorMarkerNavigation.background": "#000",
+    "editorSuggestWidget.background": "#000",
+    "editorSuggestWidget.border": "#000",
+    "editorWidget.background": "#000",
+    "focusBorder": "#000",
+    "sideBar.background": "#000",
+    "sideBarSectionHeader.background": "#000",
+    "statusBar.background": "#000",
+    "statusBar.noFolderBackground": "#000",
+    "tab.activeBackground": "#000",
+    "tab.border": "#000",
+    "tab.inactiveBackground": "#000",
+    "terminal.background": "#000",
+    "titleBar.activeBackground": "#000",
+    "titleBar.inactiveBackground": "#000",
+
+    /* Achar a cor que vc quer modificar de algum tema: 
+      1º Ctrl+Shift+P;
+      2º Pesquise: Generate color theme
+      e selecione a primeira opção;
+      3º Ache a cor(es) que você quer alterar e insira aqui
+    */
+
+    //Personalização individual do tema:
+    "[ƒ - One Dark]": {
+      //Cor do texto dos arquivos do repos quando ele é modificado
+      "gitDecoration.modifiedResourceForeground": "#e2c08d"
     }
   }
 }
