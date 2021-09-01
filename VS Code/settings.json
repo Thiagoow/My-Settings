@@ -60,6 +60,7 @@
     "Reseta",
     "Responsivando",
     "Rocketseat",
+    "Serializa",
     "Thiago",
     "Unmount",
     "Youtube",
@@ -89,6 +90,7 @@
     "isabelli",
     "js",
     "jsxdev",
+    "longtext",
     "lopes",
     "lulee",
     "maykbrito",
@@ -238,8 +240,6 @@
   },
   "todo-tree.highlights.enabled": true,
   "todo-tree.general.statusBarClickBehaviour": "cycle",
-  //Tema que eu uso no meu Vs Code:
-  "workbench.colorTheme": "Dark Material Dracula Soft",
   /* Personalizações que eu uso nos meus temas do Vs Code
   para aplicar um fundo preto puro: */
   "workbench.colorCustomizations": {
@@ -281,5 +281,7 @@
       //Cor do texto dos arquivos do repos quando ele é modificado
       "gitDecoration.modifiedResourceForeground": "#e2c08d"
     }
-  }
+  },
+  "sync.gist": "725dee5efa98edc6b63104d871a1b960",
+  "workbench.colorTheme": "Dracula"
 }
