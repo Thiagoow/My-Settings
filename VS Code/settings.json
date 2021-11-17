@@ -26,6 +26,7 @@
 
   //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
   "git.confirmSync": false,
+
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
