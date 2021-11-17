@@ -2,7 +2,7 @@
   //Seta o End of Line Sequence dos arquivos pra LF como padrão para evitar bugs:
   "files.eol": "\n",
 
-  //Minha estilização do Vs Code:
+  //Ícones que eu uso:
   "workbench.iconTheme": "material-icon-theme",
 
   //Configs do meu Prettier:
@@ -247,9 +247,10 @@
   },
   "todo-tree.highlights.enabled": true,
   "todo-tree.general.statusBarClickBehaviour": "cycle",
-  /* Personalizações que eu uso nos meus temas do Vs Code
-  para aplicar um fundo preto puro: */
+
   "workbench.colorCustomizations": {
+    /* Personalizações que eu uso nos meus temas do Vs Code
+    para aplicar um fundo preto puro: */
     "activityBar.background": "#000",
     "badge.background": "#000",
     "debugToolBar.background": "#000",
@@ -275,6 +276,7 @@
     "terminal.background": "#000",
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
+
     /* Tira as indicações coloridas da scrollbar: */
     "editorOverviewRuler.addedForeground": "#000",
     "editorOverviewRuler.modifiedForeground": "#000",
