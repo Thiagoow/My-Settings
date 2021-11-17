@@ -38,16 +38,20 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "cSpell.userWords": [
+    "adobexd",
     "adonisjs",
     "aparecer",
     "apartirdovalor",
     "API's",
+    "Artboard",
+    "Aurivam",
     "Avenir",
     "axios",
     "Axios",
     "bedimcode",
     "Bootcamp",
     "browserslist",
+    "Btns",
     "Cataline",
     "CEPs",
     "checkmark",
@@ -67,7 +71,9 @@
     "divs",
     "ecmascript",
     "Ecommerce",
+    "ETEC",
     "extnames",
+    "FATEC",
     "favicon",
     "flexbox",
     "fontawesome",
@@ -77,6 +83,7 @@
     "greenyellow",
     "haha",
     "Hoppsctoch",
+    "Ibook",
     "imageurl",
     "isabelli",
     "js",
@@ -96,6 +103,7 @@
     "mnsg",
     "mnsgs",
     "mostra",
+    "nextjs",
     "nlw",
     "node",
     "nodejs",
@@ -107,6 +115,7 @@
     "Omni",
     "origamid",
     "paraaaaa",
+    "Photoshop",
     "Playstation",
     "repos",
     "Reseta",
@@ -115,6 +124,7 @@
     "rgba",
     "rocketseat",
     "Rocketseat",
+    "Rymo",
     "scripthost",
     "Serializa",
     "swiper",
@@ -299,5 +309,9 @@
   "workbench.colorTheme": "Dracula",
   "diffEditor.ignoreTrimWhitespace": false,
   /* Tira as linhas coloridas do lado esquerdo do editor: */
-  "scm.diffDecorations": "none"
+  "scm.diffDecorations": "none",
+  /* Configs do compilador de C/C++: */
+  "c-cpp-compile-run.cpp-flags": " -Wall -Wextra -std=c17",
+  /* ☝🏼 std=c17 --> Roda na versão estável mais atual */
+  "c-cpp-compile-run.should-show-notifications": false
 }
