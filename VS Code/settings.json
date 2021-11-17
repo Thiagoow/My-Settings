@@ -297,6 +297,5 @@
   "workbench.colorTheme": "Dracula",
   "diffEditor.ignoreTrimWhitespace": false,
   /* Tira as linhas coloridas do lado esquerdo do editor: */
-  "scm.diffDecorations": "none",
-  "cSpell.ignoreWords": ["Bergmann"]
+  "scm.diffDecorations": "none"
 }
