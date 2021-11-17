@@ -37,6 +37,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  /* Palavras salvas no dicionário pra não serem encaradas como erros: */
   "cSpell.userWords": [
     "adobexd",
     "adonisjs",
