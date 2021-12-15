@@ -12,6 +12,12 @@
   //Ativa a antiga extensão Bracket-Pair-Colorizer-2 agora nativa no Vs Code:
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": false,
+  /*
+  Adicionei também a cor do primeiro bracket com a cor
+  gold por padrão, lá no "workbench.colorCustomizations"
+  */
 
   //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
   "material-icon-theme.folders.associations": {
@@ -295,6 +301,8 @@
     "terminal.background": "#000",
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
+    //Deixa os primeiros brackets com a cor:
+    "editorBracketHighlight.foreground1": "#ffd700",
 
     /* Tira as indicações coloridas da scrollbar: */
     "editorOverviewRuler.addedForeground": "#000",
