@@ -9,6 +9,10 @@
   "prettier.semi": true,
   "prettier.trailingComma": "none",
 
+  //Ativa a antiga extensão Bracket-Pair-Colorizer-2 agora nativa no Vs Code:
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
   //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
   "material-icon-theme.folders.associations": {
     "bosons": "components",
@@ -51,6 +55,7 @@
     "axios",
     "Axios",
     "bedimcode",
+    "booleana",
     "Bootcamp",
     "browserslist",
     "Btns",
@@ -109,6 +114,7 @@
     "nlw",
     "node",
     "nodejs",
+    "Nums",
     "Nunito",
     "nuxt",
     "Nuxt",
@@ -128,6 +134,7 @@
     "Rocketseat",
     "Rymo",
     "scripthost",
+    "scrollar",
     "Serializa",
     "swiper",
     "Thiago",
