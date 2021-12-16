@@ -2,12 +2,25 @@
   //Seta o End of Line Sequence dos arquivos pra LF como padrão para evitar bugs:
   "files.eol": "\n",
 
+  //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
+  "git.confirmSync": false,
+
   //Ícones que eu uso:
   "workbench.iconTheme": "material-icon-theme",
+
+  //Configs da minha fonte:
+  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.4,
+  "editor.fontWeight": "normal",
 
   //Configs do meu Prettier:
   "prettier.semi": true,
   "prettier.trailingComma": "none",
+  "editor.smoothScrolling": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
 
   //Ativa a antiga extensão Bracket-Pair-Colorizer-2 agora nativa no Vs Code:
   "editor.bracketPairColorization.enabled": true,
@@ -18,6 +31,9 @@
   Adicionei também a cor do primeiro bracket com a cor
   gold por padrão, lá no "workbench.colorCustomizations"
   */
+
+  /* Tira as linhas coloridas do lado esquerdo do editor: */
+  "scm.diffDecorations": "none",
 
   //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
   "material-icon-theme.folders.associations": {
@@ -34,20 +50,11 @@
   "team.showWelcomeMessage": false,
   "git.autofetch": true,
 
-  //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
-  "git.confirmSync": false,
-
-  "editor.fontFamily": "'JetBrains Mono'",
-  "editor.fontSize": 13,
-  "editor.fontLigatures": true,
-  "editor.letterSpacing": 0.4,
-  "editor.smoothScrolling": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
   "tabnine.experimentalAutoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
   /* Palavras salvas no dicionário pra não serem encaradas como erros: */
   "cSpell.userWords": [
     "adobexd",
@@ -160,7 +167,6 @@
     "Youtube",
     "yungsilva"
   ],
-  "editor.fontWeight": "normal",
   "cSpell.language": "en,pt-BR",
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
@@ -301,6 +307,7 @@
     "terminal.background": "#000",
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
+
     //Deixa os primeiros brackets com a cor:
     "editorBracketHighlight.foreground1": "#ffd700",
 
@@ -322,11 +329,11 @@
       "gitDecoration.modifiedResourceForeground": "#e2c08d"
     }
   },
+
   "sync.gist": "725dee5efa98edc6b63104d871a1b960",
   "workbench.colorTheme": "Dracula",
   "diffEditor.ignoreTrimWhitespace": false,
-  /* Tira as linhas coloridas do lado esquerdo do editor: */
-  "scm.diffDecorations": "none",
+
   /* Configs do compilador de C/C++: */
   "c-cpp-compile-run.cpp-flags": " -Wall -Wextra -std=c17",
   /* ☝🏼 std=c17 --> Roda na versão estável mais atual */
