@@ -103,6 +103,7 @@
     "Glassmorphic",
     "greenyellow",
     "haha",
+    "hamburguer",
     "Hoppsctoch",
     "Ibook",
     "imageurl",
@@ -157,14 +158,17 @@
     "ts",
     "typeorm",
     "Unfollow",
+    "Unicons",
     "UNICONS",
     "Unmount",
     "varchar",
     "viacep",
+    "vitejs",
     "vue",
     "vuejs",
     "vuex",
     "webservice",
+    "Whatsapp",
     "Youtube",
     "yungsilva"
   ],
@@ -255,15 +259,15 @@
   /* Configs extensão ToDo Tree: */
   "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "todo-tree.general.statusBar": "total",
+  "todo-tree.general.statusBar": "top three",
   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
     "type": "text",
-    "foreground": "black",
-    "background": "yellow",
+    "foreground": "#000",
+    "background": "#ffff00",
     "opacity": 50,
-    "iconColour": "blue"
+    "iconColour": "#0000ff"
   },
   "todo-tree.highlights.customHighlight": {
     "TODO": {
@@ -272,8 +276,8 @@
       "gutterIcon": true
     },
     "FIXME": {
-      "foreground": "black",
-      "iconColour": "yellow",
+      "foreground": "#000",
+      "iconColour": "#ffff00",
       "gutterIcon": true
     }
   },
@@ -338,5 +342,8 @@
   /* Configs do compilador de C/C++: */
   "c-cpp-compile-run.cpp-flags": " -Wall -Wextra -std=c17",
   /* ☝🏼 std=c17 --> Roda na versão estável mais atual */
-  "c-cpp-compile-run.should-show-notifications": false
+  "c-cpp-compile-run.should-show-notifications": false,
+
+  "git.ignoreRebaseWarning": true,
+  "remoteHub.commitDirectlyWarning": "off"
 }
