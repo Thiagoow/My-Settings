@@ -36,3 +36,4 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [Rocketseat React Native](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Edge template support](https://marketplace.visualstudio.com/items?itemName=luongnd.edge)
+- [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
