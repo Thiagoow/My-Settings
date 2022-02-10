@@ -36,8 +36,11 @@
   /* Tira as linhas coloridas do lado esquerdo do editor: */
   "scm.diffDecorations": "none",
 
-  //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
+  //Muda os ícones das pastas do VsCode:
   "material-icon-theme.folders.associations": {
+    //7-1 Sass folder organization patern:
+    "abstracts": "config",
+    //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
     "bosons": "components",
     "quarks": "components",
     "atoms": "components",
@@ -117,6 +120,7 @@
     "lulee",
     "luxon",
     "maykbrito",
+    "mediaqueries",
     "mensagem",
     "microframework",
     "middlewares",
