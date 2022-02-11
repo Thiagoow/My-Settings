@@ -37,3 +37,4 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Edge template support](https://marketplace.visualstudio.com/items?itemName=luongnd.edge)
 - [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
