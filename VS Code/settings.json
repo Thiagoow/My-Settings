@@ -270,8 +270,8 @@
     "type": "text",
     "foreground": "#000",
     "background": "#ffff00",
-    "opacity": 50,
-    "iconColour": "#0000ff"
+    "opacity": 90,
+    "iconColour": "#77777a"
   },
   "todo-tree.highlights.customHighlight": {
     "TODO": {
