@@ -263,7 +263,7 @@
   /* Configs extensão ToDo Tree: */
   "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "todo-tree.general.statusBar": "top three",
+  "todo-tree.general.statusBar": "current file",
   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
@@ -271,15 +271,22 @@
     "foreground": "#000",
     "background": "#ffff00",
     "opacity": 90,
-    "iconColour": "#77777a"
+    "iconColour": "#0000ff"
   },
   "todo-tree.highlights.customHighlight": {
     "TODO": {
       "icon": "check",
-      "type": "line",
+      "type": "tag-and-subTag",
+      "background": "#ffff00",
+      "gutterIcon": true
+    },
+    "BUG": {
+      "type": "text",
+      "iconColour": "#ff0000",
       "gutterIcon": true
     },
     "FIXME": {
+      "type": "whole-line",
       "foreground": "#000",
       "iconColour": "#ffff00",
       "gutterIcon": true
