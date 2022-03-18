@@ -4,6 +4,8 @@
 
   //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
   "git.confirmSync": false,
+  //Verifica automaticamente se tem changes no:
+  "git.autofetch": true,
 
   //Ícones que eu uso:
   "workbench.iconTheme": "material-icon-theme",
@@ -52,7 +54,6 @@
   "editor.renderIndentGuides": false,
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
-  "git.autofetch": true,
 
   "tabnine.experimentalAutoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -72,12 +73,14 @@
     "axios",
     "Axios",
     "bedimcode",
+    "Behance",
     "booleana",
     "Bootcamp",
     "browserslist",
     "Btns",
     "Cataline",
     "CEPs",
+    "chakra",
     "checkmark",
     "Componentiza",
     "Componentização",
@@ -154,9 +157,11 @@
     "Rymo",
     "scripthost",
     "scrollar",
+    "semibold",
     "Serializa",
     "swiper",
     "Thiago",
+    "thiagoow",
     "tipar",
     "transpilar",
     "ts",
@@ -263,7 +268,7 @@
   /* Configs extensão ToDo Tree: */
   "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "todo-tree.general.statusBar": "current file",
+  "todo-tree.general.statusBar": "total",
   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
@@ -356,5 +361,7 @@
   "c-cpp-compile-run.should-show-notifications": false,
 
   "git.ignoreRebaseWarning": true,
-  "remoteHub.commitDirectlyWarning": "off"
+  "remoteHub.commitDirectlyWarning": "off",
+  "c-cpp-compile-run.c-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\gcc",
+  "c-cpp-compile-run.cpp-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\g++"
 }
