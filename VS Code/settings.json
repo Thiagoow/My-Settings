@@ -4,10 +4,11 @@
 
   //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
   "git.confirmSync": false,
-  //Verifica automaticamente se tem changes no:
+  //Verifica automaticamente se tem changes no repos:
   "git.autofetch": true,
 
-  //Ícones que eu uso:
+  //Tema & icon pack que eu uso:
+  "workbench.colorTheme": "Omni Owl",
   "workbench.iconTheme": "material-icon-theme",
 
   //Configs da minha fonte:
@@ -300,6 +301,7 @@
     }
   },
   "todo-tree.highlights.enabled": true,
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules"],
   "todo-tree.general.statusBarClickBehaviour": "cycle",
 
   "workbench.colorCustomizations": {
@@ -318,7 +320,7 @@
     "editorMarkerNavigation.background": "#000",
     "editorSuggestWidget.background": "#000",
     "editorSuggestWidget.border": "#000",
-    "editorWidget.background": "#000",
+    //"editorWidget.background": "#000",
     "focusBorder": "#000",
     "sideBar.background": "#000",
     "sideBarSectionHeader.background": "#000",
@@ -330,6 +332,22 @@
     "terminal.background": "#000",
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
+    /* Dracula Theme colors for files on the sidebar (& widgets): */
+    "list.hoverBackground": "#44475a75",
+    "list.activeSelectionBackground": "#44475a",
+    "list.activeSelectionForeground": "#f8f8f2",
+    "list.dropBackground": "#44475a",
+    "list.errorForeground": "#ff5555",
+    "list.focusBackground": "#44475a75",
+    "list.highlightForeground": "#8be9fd",
+    "list.inactiveSelectionBackground": "#44475a75",
+    "list.warningForeground": "#ffb86c",
+    "listFilterWidget.background": "#343746",
+    "listFilterWidget.noMatchesOutline": "#ff5555",
+    "listFilterWidget.outline": "#424450",
+    /* Dracula Theme colors for modified files: */
+    "gitDecoration.modifiedResourceForeground": "#8be9fd",
+    "editorLink.activeForeground": "#8be9fd",
 
     //Deixa os primeiros brackets com a cor:
     "editorBracketHighlight.foreground1": "#ffd700",
@@ -353,17 +371,15 @@
     }
   },
 
+  "git.ignoreRebaseWarning": true,
+  "remoteHub.commitDirectlyWarning": "off",
   "sync.gist": "725dee5efa98edc6b63104d871a1b960",
-  "workbench.colorTheme": "Dracula",
   "diffEditor.ignoreTrimWhitespace": false,
 
   /* Configs do compilador de C/C++: */
   "c-cpp-compile-run.cpp-flags": " -Wall -Wextra -std=c17",
   /* ☝🏼 std=c17 --> Roda na versão estável mais atual */
   "c-cpp-compile-run.should-show-notifications": false,
-
-  "git.ignoreRebaseWarning": true,
-  "remoteHub.commitDirectlyWarning": "off",
   "c-cpp-compile-run.c-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\gcc",
   "c-cpp-compile-run.cpp-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\g++"
 }
