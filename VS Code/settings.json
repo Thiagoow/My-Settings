@@ -12,7 +12,7 @@
   "workbench.iconTheme": "material-icon-theme",
 
   //Configs da minha fonte:
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.4,
