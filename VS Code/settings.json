@@ -333,6 +333,7 @@
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
     "sideBarSectionHeader.border": "#000",
+    //"breadcrumb.background": "#000",
     /* Dracula Theme colors for files on the sidebar (& widgets): */
     "list.hoverBackground": "#44475a75",
     "list.activeSelectionBackground": "#44475a",
