@@ -8,7 +8,7 @@
   "git.autofetch": true,
 
   //Tema & icon pack que eu uso:
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
 
   //Configs da minha fonte:
@@ -336,7 +336,7 @@
     "titleBar.inactiveBackground": "#000",
     "sideBarSectionHeader.border": "#000",
     //"breadcrumb.background": "#000",
-    /* Dracula Theme colors for files on the sidebar (& widgets): */
+    // Dracula Theme colors for files on the sidebar (& widgets):
     "list.hoverBackground": "#44475a75",
     "list.activeSelectionBackground": "#44475a",
     "list.activeSelectionForeground": "#f8f8f2",
@@ -349,7 +349,7 @@
     "listFilterWidget.background": "#343746",
     "listFilterWidget.noMatchesOutline": "#ff5555",
     "listFilterWidget.outline": "#424450",
-    /* Dracula Theme colors for modified files: */
+    // Dracula Theme colors for modified files:
     "gitDecoration.modifiedResourceForeground": "#8be9fd",
     "editorLink.activeForeground": "#8be9fd",
 
