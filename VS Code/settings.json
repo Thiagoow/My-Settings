@@ -8,7 +8,7 @@
   "git.autofetch": true,
 
   //Tema & icon pack que eu uso:
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Omni Owl",
   "workbench.iconTheme": "material-icon-theme",
 
   //Configs da minha fonte:
@@ -335,7 +335,7 @@
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
     "sideBarSectionHeader.border": "#000",
-    //"breadcrumb.background": "#000",
+    "breadcrumb.background": "#13111b",
     // Dracula Theme colors for files on the sidebar (& widgets):
     "list.hoverBackground": "#44475a75",
     "list.activeSelectionBackground": "#44475a",
