@@ -21,8 +21,10 @@
 
   //Configs do meu Prettier:
   "prettier.semi": true,
-  "prettier.trailingComma": "none",
+  "prettier.endOfLine": "lf",
+  "prettier.singleQuote": true,
   "editor.smoothScrolling": true,
+  "prettier.trailingComma": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 
