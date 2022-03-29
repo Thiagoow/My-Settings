@@ -23,7 +23,7 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [AutoComplete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-- [Code Spell Checker - EUA](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+- [Code Spell Checker - EUA](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Code Spell Checker - Brazilian](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker-portuguese-brazilian)
 - [Vetur (Vue files color support)](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 - [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
