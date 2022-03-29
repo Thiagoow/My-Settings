@@ -10,8 +10,6 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
 - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
-- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
-- [npm intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [Visual Studio Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [SQlite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
