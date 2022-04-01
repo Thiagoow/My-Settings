@@ -16,6 +16,7 @@
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.4,
+  "editor.tabSize": 2,
   "editor.letterSpacing": 0.4,
   "editor.fontWeight": "normal",
 
@@ -57,6 +58,8 @@
   "editor.renderIndentGuides": false,
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
+  "editor.minimap.enabled": false,
+  "workbench.layoutControl.enabled": false,
 
   "tabnine.experimentalAutoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -121,6 +124,7 @@
     "jsxdev",
     "KABUM",
     "Knex",
+    "LGBTQI",
     "longtext",
     "lopes",
     "lulee",
@@ -266,7 +270,7 @@
       "args": ["-NoLogo"]
     }
   },
-  "vetur.format.options.tabSize": 4,
+  "vetur.format.options.tabSize": 2,
   "cSpell.enableFiletypes": ["vue"],
   "liveServer.settings.donotVerifyTags": true,
 
