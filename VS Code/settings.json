@@ -390,12 +390,12 @@
   "c-cpp-compile-run.should-show-notifications": false,
   "c-cpp-compile-run.c-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\gcc",
   "c-cpp-compile-run.cpp-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\g++",
-  /*Format Cpp/C files with the ms extension which already has clang-format installed: 
+  /*Format Cpp/C files with the ms extension which already has clang-format installed: */
   "[c]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
-  },*/
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}"
 }
