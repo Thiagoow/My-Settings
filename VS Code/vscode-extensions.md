@@ -2,7 +2,6 @@ Essas são as extensões que estou utilizando atualmente no meu VSCode 😁:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 - [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
 - [Dark Material Dracula Theme](https://marketplace.visualstudio.com/items?itemName=CarlosHenrique.dark-material-dracula)
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
