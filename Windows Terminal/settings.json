@@ -1,4 +1,5 @@
 {
+  "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "actions": [
     {
@@ -32,7 +33,7 @@
   "initialRows": 17,
   "profiles": {
     "defaults": {
-      "colorScheme": "deep",
+      "colorScheme": "DraculaCustom-Omni",
       "font": {
         "face": "Cascadia Code",
         "size": 14
@@ -47,7 +48,6 @@
         "name": "Windows PowerShell"
       },
       {
-        "commandline": "cmd.exe",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": false,
         "name": "Prompt de comando"
@@ -62,6 +62,29 @@
   },
   "schemes": [
     {
+      "name": "DraculaCustom-Omni",
+      "black": "#000000",
+      "red": "#ff5555",
+      "green": "#50fa7b",
+      "yellow": "#f1fa8c",
+      "blue": "#bd93f9",
+      "purple": "#ff79c6",
+      "cyan": "#8be9fd",
+      "white": "#bbbbbb",
+      "brightBlack": "#555555",
+      "brightRed": "#ff5555",
+      "brightGreen": "#50fa7b",
+      "brightYellow": "#f1fa8c",
+      "brightBlue": "#bd93f9",
+      "brightPurple": "#ff79c6",
+      "brightCyan": "#8be9fd",
+      "brightWhite": "#ffffff",
+      "background": "#191622",
+      "foreground": "#ddd",
+      "selectionBackground": "#41414d",
+      "cursorColor": "#D0D0D0"
+    },
+    {
       "background": "#191323",
       "black": "#17141F",
       "blue": "#22E8DF",
@@ -73,7 +96,7 @@
       "brightRed": "#FE9EA1",
       "brightWhite": "#FFFFFF",
       "brightYellow": "#F9E46B",
-      "cursorColor": "#E07D13",
+      "cursorColor": "#D0D0D0",
       "cyan": "#56B6C2",
       "foreground": "#CCCCCC",
       "green": "#00BD9C",
