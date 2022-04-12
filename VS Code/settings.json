@@ -12,14 +12,12 @@
   "workbench.iconTheme": "material-icon-theme",
 
   //Configs da minha fonte:
-  "editor.fontFamily": "Cascadia Code",
-  "editor.fontSize": 13.2,
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontSize": 13,
   "editor.fontLigatures": true,
-  //"editor.fontLigatures": "'calt', 'ss01'",
-  //☝🏼 Cascadia Code font italics enabling
   "editor.lineHeight": 1.4,
   "editor.tabSize": 2,
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0.4,
   "editor.fontWeight": "normal",
 
   //Configs do meu Prettier:
