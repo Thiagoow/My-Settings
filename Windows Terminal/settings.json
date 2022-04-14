@@ -15,7 +15,7 @@
     },
     {
       "command": "find",
-      "keys": "ctrl+shift+f"
+      "keys": "ctrl+f"
     },
     {
       "command": {
@@ -23,7 +23,7 @@
         "split": "auto",
         "splitMode": "duplicate"
       },
-      "keys": "alt+shift+d"
+      "keys": "alt+d"
     }
   ],
   "copyFormatting": "none",
@@ -83,7 +83,7 @@
       "foreground": "#ddd",
       "selectionBackground": "#41414d",
       "cursorColor": "#D0D0D0"
-    },
+    } /* Unused theme schemes:
     {
       "background": "#191323",
       "black": "#17141F",
@@ -405,6 +405,6 @@
       "selectionBackground": "#780002",
       "white": "#E0E0E0",
       "yellow": "#D9BD26"
-    }
+    } */
   ]
 }
