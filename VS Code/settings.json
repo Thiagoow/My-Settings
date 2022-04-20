@@ -357,6 +357,7 @@
     "listFilterWidget.outline": "#424450",
     // Dracula Theme colors for modified files:
     "gitDecoration.modifiedResourceForeground": "#8be9fd",
+    "gitDecoration.stageModifiedResourceForeground": "#8be9fd",
     "editorLink.activeForeground": "#8be9fd",
 
     //Deixa os primeiros brackets com a cor:
