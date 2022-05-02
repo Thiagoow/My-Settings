@@ -204,8 +204,8 @@
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  //See what props needs to be passed to function whitour hover:
-  "typescript.inlayHints.parameterNames.enabled": "all",
+  //See what props needs to be passed to function whitout hover:
+  "typescript.inlayHints.parameterNames.enabled": "none",
 
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
@@ -225,6 +225,7 @@
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatter.html": "prettier",
   "vetur.experimental.templateInterpolationService": true,
+
   //Volar (new Vue 3 extension) configs:
   "volar.icon.splitEditors": false,
   "volar.icon.preview": false,
