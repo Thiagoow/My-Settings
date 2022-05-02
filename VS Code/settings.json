@@ -23,11 +23,11 @@
   //Configs do meu Prettier:
   "prettier.semi": true,
   "prettier.endOfLine": "lf",
+  "editor.formatOnSave": true,
   "prettier.singleQuote": false,
   "editor.smoothScrolling": true,
   "prettier.trailingComma": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
 
   //Ativa a antiga extensão Bracket-Pair-Colorizer-2 agora nativa no Vs Code:
   "editor.bracketPairColorization.enabled": true,
@@ -83,7 +83,9 @@
     "booleana",
     "Bootcamp",
     "browserslist",
+    "btns",
     "Btns",
+    "bugada",
     "Cascadia",
     "Cataline",
     "CEPs",
@@ -171,6 +173,7 @@
     "swiper",
     "Thiago",
     "thiagoow",
+    "tipamos",
     "tipar",
     "transpilar",
     "ts",
@@ -218,9 +221,13 @@
   "kite.showWelcomeNotificationOnStartup": false,
 
   //Configs Cataline Bootcamp:
+  "vetur.format.options.tabSize": 2,
   "vetur.format.defaultFormatter.js": "prettier",
   "vetur.format.defaultFormatter.html": "prettier",
   "vetur.experimental.templateInterpolationService": true,
+  //Volar (new Vue 3 extension) configs:
+  "volar.icon.splitEditors": false,
+  "volar.icon.preview": false,
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -272,7 +279,6 @@
       "args": ["-NoLogo"]
     }
   },
-  "vetur.format.options.tabSize": 2,
   "cSpell.enableFiletypes": ["vue"],
   "liveServer.settings.donotVerifyTags": true,
 
@@ -400,5 +406,6 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}"
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
+  "editor.linkedEditing": true
 }
