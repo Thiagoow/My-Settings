@@ -55,7 +55,6 @@
     "templates": "components",
     "pages": "components"
   },
-  "editor.renderIndentGuides": false,
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
   "editor.minimap.enabled": false,
@@ -109,8 +108,10 @@
     "Ecommerce",
     "ETEC",
     "extnames",
+    "Fatec",
     "FATEC",
     "favicon",
+    "figma",
     "flexbox",
     "fontawesome",
     "fortawesome",
@@ -127,6 +128,7 @@
     "jsxdev",
     "KABUM",
     "Knex",
+    "laravel",
     "LGBTQI",
     "longtext",
     "lopes",
@@ -188,6 +190,7 @@
     "vue",
     "vuejs",
     "vuex",
+    "webp",
     "webservice",
     "Whatsapp",
     "Youtube",
@@ -408,5 +411,6 @@
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "editor.guides.indentation": false
 }
