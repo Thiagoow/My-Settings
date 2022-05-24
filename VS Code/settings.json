@@ -69,6 +69,7 @@
   "cSpell.userWords": [
     "adobexd",
     "adonisjs",
+    "antdesign",
     "aparecer",
     "apartirdovalor",
     "API's",
@@ -166,6 +167,7 @@
     "respawn",
     "Responsivando",
     "rgba",
+    "rneui",
     "rocketseat",
     "Rocketseat",
     "Rymo",
@@ -180,6 +182,7 @@
     "tipar",
     "transpilar",
     "ts",
+    "twrnc",
     "typeorm",
     "uber",
     "Unfollow",
@@ -275,6 +278,7 @@
 
   //Configs terminal Windows Terminal + PowerShell:
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "path": [
