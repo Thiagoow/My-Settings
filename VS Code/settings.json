@@ -293,6 +293,7 @@
   "liveServer.settings.donotVerifyTags": true,
 
   /* Configs extensão ToDo Tree: */
+  "todo-tree.filtering.includeGlobs": ["**/node_modules/*"],
   "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.general.statusBar": "total",
