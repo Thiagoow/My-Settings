@@ -28,6 +28,30 @@
   "editor.smoothScrolling": true,
   "prettier.trailingComma": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   //Ativa a antiga extensão Bracket-Pair-Colorizer-2 agora nativa no Vs Code:
   "editor.bracketPairColorization.enabled": true,
@@ -38,9 +62,6 @@
   Adicionei também a cor do primeiro bracket com a cor
   gold por padrão, lá no "workbench.colorCustomizations"
   */
-
-  /* Tira as linhas coloridas do lado esquerdo do editor: */
-  "scm.diffDecorations": "none",
 
   //Muda os ícones das pastas do VsCode:
   "material-icon-theme.folders.associations": {
@@ -55,12 +76,17 @@
     "templates": "components",
     "pages": "components"
   },
+
+  "editor.cursorBlinking": "expand",
+  "workbench.startupEditor": "none",
+  "workbench.editor.untitled.hint": "hidden",
+  /* Tira as linhas coloridas do lado esquerdo do editor: */
+  "scm.diffDecorations": "none",
+
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
   "editor.minimap.enabled": false,
   "workbench.layoutControl.enabled": false,
-
-  "tabnine.experimentalAutoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -226,55 +252,10 @@
   "typescript.suggest.autoImports": true,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
-  "kite.showWelcomeNotificationOnStartup": false,
-
-  //Configs Cataline Bootcamp:
-  "vetur.format.options.tabSize": 2,
-  "vetur.format.defaultFormatter.js": "prettier",
-  "vetur.format.defaultFormatter.html": "prettier",
-  "vetur.experimental.templateInterpolationService": true,
 
   //Volar (new Vue 3 extension) configs:
   "volar.icon.splitEditors": false,
   "volar.icon.preview": false,
-
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "support.class.component.html",
-        "settings": {
-          "foreground": "#569CD6"
-        }
-      }
-    ]
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.cursorBlinking": "expand",
-  "workbench.startupEditor": "none",
-  "workbench.editor.untitled.hint": "hidden",
 
   //Configs terminal Windows Terminal + PowerShell:
   "terminal.integrated.defaultProfile.windows": "PowerShell",
