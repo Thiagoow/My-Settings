@@ -27,6 +27,7 @@
   "prettier.singleQuote": true,
   "editor.smoothScrolling": true,
   "prettier.trailingComma": "none",
+
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -274,10 +275,12 @@
   "liveServer.settings.donotVerifyTags": true,
 
   /* Configs extensão ToDo Tree: */
-  "todo-tree.filtering.includeGlobs": ["**/node_modules/*"],
   "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "todo-tree.general.statusBar": "total",
+  //Ignore node_modules:
+  "todo-tree.filtering.includeGlobs": ["**/node_modules/*"],
+
   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
