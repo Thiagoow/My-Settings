@@ -81,7 +81,7 @@
   "editor.cursorBlinking": "expand",
   "workbench.startupEditor": "none",
   "workbench.editor.untitled.hint": "hidden",
-  /* Tira as linhas coloridas do lado esquerdo do editor: */
+  //Tira as linhas coloridas do lado esquerdo do editor:
   "scm.diffDecorations": "none",
 
   "team.showFarewellMessage": false,
@@ -217,6 +217,7 @@
     "UNICONS",
     "Unmount",
     "varchar",
+    "Vercel",
     "viacep",
     "vitejs",
     "vue",
@@ -338,11 +339,12 @@
     "tab.activeBackground": "#000",
     "tab.border": "#000",
     "tab.inactiveBackground": "#000",
-    "terminal.background": "#000",
     "titleBar.activeBackground": "#000",
     "titleBar.inactiveBackground": "#000",
     "sideBarSectionHeader.border": "#000",
     "breadcrumb.background": "#13111b",
+    "terminal.background": "#000",
+    "terminal.selectionBackground": "#f81ce5",
     // Dracula Theme colors for files on the sidebar (& widgets):
     "list.hoverBackground": "#44475a75",
     "list.activeSelectionBackground": "#44475a",
@@ -389,7 +391,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
 
   // Configs do compilador de C/C++:
-  "c-cpp-compile-run.cpp-flags": " -Wall -Wextra -std=c17",
+  "c-cpp-compile-run.cpp-flags": " -Wall -Wextra",
   /* ☝🏼 std=c17 --> Roda na versão estável mais atual */
   "c-cpp-compile-run.should-show-notifications": false,
   "c-cpp-compile-run.c-compiler": "C:\\Program Files\\TDM-GCC-64\\bin\\gcc",
@@ -403,5 +405,6 @@
   },
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
   "editor.linkedEditing": true,
-  "editor.guides.indentation": false
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true
 }
