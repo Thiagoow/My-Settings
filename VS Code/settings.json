@@ -1,5 +1,5 @@
 {
-  //Seta o End of Line Sequence dos arquivos pra LF (no Windows) como padrão para evitar bugs:
+  //Seta o End of Line Sequence dos arquivos pra LF (no Windows) como padrão:
   "files.eol": "\n",
 
   //Envia a commit assim que eu crio ela, sem confirmar a sincronização:
@@ -109,6 +109,7 @@
     "Behance",
     "booleana",
     "Bootcamp",
+    "boxicons",
     "browserslist",
     "btns",
     "Btns",
@@ -150,6 +151,7 @@
     "hamburguer",
     "Hoppsctoch",
     "Ibook",
+    "iconify",
     "imageurl",
     "isabelli",
     "js",
@@ -203,6 +205,7 @@
     "semibold",
     "Serializa",
     "swiper",
+    "thiago",
     "Thiago",
     "thiagoow",
     "tipamos",
@@ -216,6 +219,7 @@
     "Unicons",
     "UNICONS",
     "Unmount",
+    "unplugin",
     "varchar",
     "Vercel",
     "viacep",
@@ -276,12 +280,11 @@
   "liveServer.settings.donotVerifyTags": true,
 
   /* Configs extensão ToDo Tree: */
-  "todo-tree.tree.hideTreeWhenEmpty": true,
-  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.tree.scanAtStartup": true,
+  "todo-tree.tree.scanMode": "workspace",
   "todo-tree.general.statusBar": "total",
-  //Ignore node_modules:
-  "todo-tree.filtering.includeGlobs": ["**/node_modules/*"],
-
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.hideTreeWhenEmpty": true,
   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO"],
   "todo-tree.highlights.defaultHighlight": {
     "icon": "alert",
@@ -300,6 +303,8 @@
     },
     "BUG": {
       "type": "text",
+      "foreground": "#fff",
+      "background": "#ff0000",
       "iconColour": "#ff0000",
       "gutterIcon": true
     },
@@ -312,7 +317,7 @@
   },
   "todo-tree.highlights.enabled": true,
   "todo-tree.filtering.excludeGlobs": ["**/node_modules"],
-  "todo-tree.general.statusBarClickBehaviour": "cycle",
+  "todo-tree.general.statusBarClickBehaviour": "reveal",
 
   "workbench.colorCustomizations": {
     /* Personalizações que eu uso nos meus temas do Vs Code
@@ -344,6 +349,7 @@
     "sideBarSectionHeader.border": "#000",
     "breadcrumb.background": "#13111b",
     "terminal.background": "#000",
+    "terminal.selectionForeground": "#fff",
     "terminal.selectionBackground": "#f81ce5",
     // Dracula Theme colors for files on the sidebar (& widgets):
     "list.hoverBackground": "#44475a75",
@@ -387,7 +393,6 @@
 
   "git.ignoreRebaseWarning": true,
   "remoteHub.commitDirectlyWarning": "off",
-  "sync.gist": "725dee5efa98edc6b63104d871a1b960",
   "diffEditor.ignoreTrimWhitespace": false,
 
   // Configs do compilador de C/C++:
