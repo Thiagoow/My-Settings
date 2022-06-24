@@ -25,7 +25,6 @@
   "prettier.endOfLine": "lf",
   "editor.formatOnSave": true,
   "prettier.singleQuote": true,
-  "editor.smoothScrolling": true,
   "prettier.trailingComma": "none",
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -80,6 +79,11 @@
 
   "editor.cursorBlinking": "expand",
   "workbench.startupEditor": "none",
+  "editor.linkedEditing": true,
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.list.smoothScrolling": true,
   "workbench.editor.untitled.hint": "hidden",
   //Tira as linhas coloridas do lado esquerdo do editor:
   "scm.diffDecorations": "none",
@@ -211,6 +215,7 @@
     "thiagoow",
     "tipamos",
     "tipar",
+    "TMDB",
     "transpilar",
     "ts",
     "twrnc",
@@ -409,8 +414,5 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
-  "editor.linkedEditing": true,
-  "editor.guides.indentation": false,
-  "editor.inlineSuggest.enabled": true
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}"
 }
