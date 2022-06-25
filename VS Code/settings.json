@@ -13,11 +13,11 @@
 
   //Configs da minha fonte:
   "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontSize": 13,
+  "editor.fontSize": 13.2,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.4,
   "editor.tabSize": 2,
-  "editor.letterSpacing": 0.4,
+  "editor.letterSpacing": 0.5,
   "editor.fontWeight": "normal",
 
   //Configs do meu Prettier:
@@ -65,7 +65,7 @@
 
   //Muda os ícones das pastas do VsCode:
   "material-icon-theme.folders.associations": {
-    //7-1 Sass folder organization patern:
+    //7-1 Sass folder organization pattern:
     "abstracts": "config",
     //Para que as pastas do AtomicDesign tbm fiquem com o icon de components:
     "bosons": "components",
@@ -77,9 +77,25 @@
     //"pages": "components"
   },
 
+  //Minimal UI settings:
+  "editor.codeLens": false,
+  "editor.padding.top": 20,
+  "editor.glyphMargin": false,
+  //☝🏽 Space used for breakpoints
+  "editor.lineDecorationsWidth": 20,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+
+  "explorer.openEditors.visible": 0,
+  "editor.overviewRulerBorder": false,
+  "editor.occurrencesHighlight": false,
+  "editor.renderLineHighlight": "none",
+  "editor.hideCursorInOverviewRuler": true,
+
+  "breadcrumbs.enabled": false,
+  "editor.linkedEditing": true,
   "editor.cursorBlinking": "expand",
   "workbench.startupEditor": "none",
-  "editor.linkedEditing": true,
   "editor.guides.indentation": false,
   "editor.inlineSuggest.enabled": true,
   "editor.cursorSmoothCaretAnimation": true,
@@ -90,7 +106,6 @@
 
   "team.showFarewellMessage": false,
   "team.showWelcomeMessage": false,
-  "editor.minimap.enabled": false,
   "workbench.layoutControl.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.suggestSelection": "first",
@@ -106,6 +121,7 @@
     "API's",
     "Artboard",
     "Aurivam",
+    "autofetch",
     "Avenir",
     "axios",
     "Axios",
@@ -123,6 +139,7 @@
     "CEPs",
     "chakra",
     "checkmark",
+    "Colour",
     "Componentiza",
     "Componentização",
     "Cript",
@@ -139,6 +156,7 @@
     "divs",
     "ecmascript",
     "Ecommerce",
+    "esbenp",
     "ETEC",
     "extnames",
     "Fatec",
@@ -158,6 +176,7 @@
     "iconify",
     "imageurl",
     "isabelli",
+    "Jetbrains",
     "js",
     "jsxdev",
     "KABUM",
@@ -230,12 +249,14 @@
     "Vercel",
     "viacep",
     "vitejs",
+    "vsintellicode",
     "vue",
     "vuejs",
     "vuex",
     "webp",
     "webservice",
     "Whatsapp",
+    "windir",
     "Youtube",
     "yungsilva"
   ],
@@ -244,16 +265,14 @@
   "explorer.compactFolders": false,
 
   //Configs Rocketseat:
-  "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "default",
   "extensions.ignoreRecommendations": true,
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  //See what props needs to be passed to function whitout hover:
+  //See what props needs to be passed to function without hover:
   "typescript.inlayHints.parameterNames.enabled": "none",
 
-  "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
 
@@ -414,5 +433,11 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}"
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true
+  }
 }
