@@ -13,7 +13,7 @@
 
   //Configs da minha fonte:
   "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontSize": 13.2,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.4,
   "editor.tabSize": 2,
@@ -76,9 +76,6 @@
     "templates": "components"
     //"pages": "components"
   },
-
-  //Minimal UI settings:
-  "editor.codeLens": false,
   "editor.padding.top": 20,
   "editor.glyphMargin": false,
   //☝🏽 Space used for breakpoints
@@ -202,6 +199,7 @@
     "nlw",
     "node",
     "nodejs",
+    "nums",
     "Nums",
     "Nunito",
     "nuxt",
@@ -211,11 +209,14 @@
     "Omni",
     "origamid",
     "paraaaaa",
+    "Parens",
     "Photoshop",
     "Playstation",
+    "Pressable",
     "reduxjs",
     "repos",
     "Reseta",
+    "Resetar",
     "respawn",
     "Responsivando",
     "rgba",
@@ -240,6 +241,7 @@
     "twrnc",
     "typeorm",
     "uber",
+    "uids",
     "Unfollow",
     "Unicons",
     "UNICONS",
@@ -257,6 +259,7 @@
     "webservice",
     "Whatsapp",
     "windir",
+    "youch",
     "Youtube",
     "yungsilva"
   ],
@@ -285,6 +288,7 @@
   "git.postCommitCommand": "sync",
 
   //Volar (new Vue 3 extension) configs:
+  "volar.codeLens.references": false,
   "volar.icon.splitEditors": false,
   "volar.icon.preview": false,
 
