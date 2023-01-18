@@ -78,7 +78,7 @@
   },
   "editor.padding.top": 20,
   "editor.glyphMargin": false,
-  //☝🏽 Space used for breakpoints
+  //☝🏽 Space used for breakpoints/debugger
   "editor.lineDecorationsWidth": 20,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "selection",
