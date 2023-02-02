@@ -95,6 +95,8 @@
   "workbench.startupEditor": "none",
   "editor.guides.indentation": false,
   "editor.inlineSuggest.enabled": true,
+  // Enabling smooth scrolling:
+  "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.list.smoothScrolling": true,
   "workbench.editor.untitled.hint": "hidden",
