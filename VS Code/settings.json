@@ -9,13 +9,15 @@
 
   //Tema & icon pack que eu uso:
   "workbench.colorTheme": "Omni Owl",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
 
   //Configs da minha fonte:
-  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 1.4,
+  // "editor.fontLigatures": "'calt', 'ss01'",
+  //☝🏼 Cascadia Code font italics enabling
+  "editor.lineHeight": 1.6,
   "editor.tabSize": 2,
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "normal",
@@ -29,20 +31,20 @@
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -78,14 +80,14 @@
   },
   "editor.padding.top": 20,
   "editor.glyphMargin": false,
-  //☝🏽 Space used for breakpoints/debugger
+  //☝🏽 Space used for breakpoints
   "editor.lineDecorationsWidth": 20,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "selection",
 
   "explorer.openEditors.visible": 0,
   "editor.overviewRulerBorder": false,
-  "editor.occurrencesHighlight": false,
+  "editor.occurrencesHighlight": "off",
   "editor.renderLineHighlight": "none",
   "editor.hideCursorInOverviewRuler": true,
 
@@ -95,11 +97,8 @@
   "workbench.startupEditor": "none",
   "editor.guides.indentation": false,
   "editor.inlineSuggest.enabled": true,
-  // Enabling smooth scrolling:
-  "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "workbench.list.smoothScrolling": true,
-  "workbench.editor.untitled.hint": "hidden",
   //Tira as linhas coloridas do lado esquerdo do editor:
   "scm.diffDecorations": "none",
 
@@ -121,6 +120,7 @@
     "Artboard",
     "Aurivam",
     "autofetch",
+    "autoresize",
     "Avenir",
     "axios",
     "Axios",
@@ -138,6 +138,7 @@
     "CEPs",
     "chakra",
     "checkmark",
+    "cnpj",
     "Colour",
     "Componentiza",
     "Componentização",
@@ -153,8 +154,10 @@
     "diferent",
     "diferentão",
     "divs",
+    "echarts",
     "ecmascript",
     "Ecommerce",
+    "Encantômetro",
     "esbenp",
     "ETEC",
     "extnames",
@@ -170,6 +173,8 @@
     "greenyellow",
     "haha",
     "hamburguer",
+    "hehehe",
+    "heroicons",
     "Hoppsctoch",
     "Ibook",
     "iconify",
@@ -198,6 +203,7 @@
     "mostra",
     "netflix",
     "nextjs",
+    "nitropack",
     "nlw",
     "node",
     "nodejs",
@@ -212,6 +218,8 @@
     "origamid",
     "paraaaaa",
     "Parens",
+    "passcode",
+    "Passcode",
     "Photoshop",
     "Playstation",
     "Pressable",
@@ -230,6 +238,8 @@
     "scrollar",
     "semibold",
     "Serializa",
+    "styl",
+    "Styl",
     "swiper",
     "tailwindcss",
     "thiago",
@@ -261,6 +271,7 @@
     "webservice",
     "Whatsapp",
     "windir",
+    "xmark",
     "youch",
     "Youtube",
     "yungsilva"
@@ -295,8 +306,9 @@
   "volar.icon.preview": false,
 
   //Configs terminal Windows Terminal + PowerShell:
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Cascadia Code PL",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "path": [
@@ -445,5 +457,36 @@
     "yaml": false,
     "plaintext": false,
     "markdown": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "[javascript][typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
+  },
+  "vue.server.hybridMode": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "update.showReleaseNotes": false,
+  "codeium.enableCodeLens": false,
+  "gitlens.views.commits.showStashes": true,
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": false,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "fileHistory": false,
+    "repositories": true,
+    "searchAndCompare": false,
+    "launchpad": false
   }
 }
