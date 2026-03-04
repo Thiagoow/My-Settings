@@ -1,12 +1,12 @@
-⚙️ Minhas Configurações VS Code:
+## ⚙️ Minhas Configurações Zed Editor:
 
-Estas são as configs e preferências que estou usando atualmente no meu VS Code! 😉
+Estas são as configs e preferências que uso no meu editor atual: [Zed](https://zed.dev)! 😉
 
-1.  [My settings.json](https://github.com/Thiagoow/My-Settings/blob/main/VS%20Code/settings.json)
-2.  [Extensões/Tema que eu utilizo :D](https://github.com/Thiagoow/My-Settings/blob/main/VS%20Code/vscode-extensions.md)
+1.  [My settings.json](https://github.com/Thiagoow/My-Settings/blob/main/Zed%20Editor/settings.json)
+2.  [Extensões/Tema que eu utilizo :D](https://github.com/Thiagoow/My-Settings/blob/main/Zed%20Editor/zed-extensions.md)
 
-👨🏻‍💻 Minhas Configurações Windows Terminal:
+## 👨🏻‍💻 Minhas Configurações Warp Terminal:
 
-Estas são configs e preferências que eu uso atualmente no meu terminal "Windows Terminal" 😁
+Ainda não é possível exportar as configurações do terminal [Warp](https://warp.dev) para um arquivo.
 
-1. [My settings.json](https://github.com/Thiagoow/My-Settings/blob/main/Windows%20Terminal/settings.json)
+Aguardando a feature pedida nesta issue: https://github.com/warpdotdev/Warp/issues/3447
