@@ -1,0 +1,73 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "disable_ai": false,
+  "outline_panel": {
+    "folder_icons": true
+  },
+  "colorize_brackets": true,
+  "bottom_dock_layout": "contained",
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": true
+  },
+  "debugger": {
+    "button": true
+  },
+  "search": {
+    "button": true
+  },
+  "diagnostics": {
+    "button": true
+  },
+  "status_bar": {
+    "cursor_position_button": true,
+    "active_language_button": true
+  },
+  "terminal": {
+    "button": true,
+    "font_size": 14.0,
+    "font_family": "Cascadia Code PL"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "project_panel": {
+    "hide_root": false,
+    "button": true
+  },
+  "base_keymap": "VSCode",
+  "show_signature_help_after_edits": false,
+  "auto_signature_help": false,
+  "minimap": {
+    "show": "never"
+  },
+  "cursor_blink": true,
+  "buffer_font_family": "JetBrains Mono",
+  "file_types": {},
+  "linked_edits": true,
+  "show_whitespaces": "selection",
+  "show_edit_predictions": true,
+  "indent_guides": {
+    "enabled": false
+  },
+  "tab_size": 2,
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "v0-light",
+    "dark": "Dune Ix Technology - blurred"
+  },
+  "experimental.theme_overrides": {
+    "editor.document_highlight.bracket_background": "#ffffff00"
+  }
+}
