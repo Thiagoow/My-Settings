@@ -7,47 +7,63 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "prettier": {
+    "allowed": false,
+  },
   "disable_ai": false,
   "outline_panel": {
-    "folder_icons": true
+    "dock": "left",
+    "folder_icons": true,
   },
   "colorize_brackets": true,
   "bottom_dock_layout": "contained",
   "title_bar": {
+    "show_branch_status_icon": true,
     "show_menus": false,
-    "show_branch_icon": true
   },
   "debugger": {
-    "button": true
+    "button": true,
   },
   "search": {
-    "button": true
+    "button": true,
   },
   "diagnostics": {
-    "button": true
+    "button": true,
   },
   "status_bar": {
     "cursor_position_button": true,
-    "active_language_button": true
+    "active_language_button": true,
   },
   "terminal": {
     "button": true,
     "font_size": 14.0,
-    "font_family": "Cascadia Code PL"
+    "font_family": "Cascadia Code PL",
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "project_panel": {
+    "dock": "left",
     "hide_root": false,
-    "button": true
+    "button": true,
   },
   "base_keymap": "VSCode",
   "show_signature_help_after_edits": false,
   "auto_signature_help": false,
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "cursor_blink": true,
   "buffer_font_family": "JetBrains Mono",
@@ -56,7 +72,7 @@
   "show_whitespaces": "selection",
   "show_edit_predictions": true,
   "indent_guides": {
-    "enabled": false
+    "enabled": false,
   },
   "tab_size": 2,
   "icon_theme": "Colored Zed Icons Theme Dark",
@@ -65,9 +81,9 @@
   "theme": {
     "mode": "dark",
     "light": "v0-light",
-    "dark": "Dune Ix Technology - blurred"
+    "dark": "Dune Ix Technology - blurred",
   },
   "experimental.theme_overrides": {
-    "editor.document_highlight.bracket_background": "#ffffff00"
-  }
+    "editor.document_highlight.bracket_background": "#ffffff00",
+  },
 }
